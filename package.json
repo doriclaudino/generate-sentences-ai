@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "faker": "^4.1.0",
+    "request": "^2.88.0",
+    "sentencer": "^0.2.0"
+  }
+}
