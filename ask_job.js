@@ -3,7 +3,9 @@ var faker = require('faker');
 var request = require("request");
 const mock = require('./ma-principals-cities')
 
-const WIT_API_KEY = 'xxxxxxxxxxxxxxxxx'
+require('dotenv').config()
+
+const WIT_API_KEY = process.env.WIT_API_KEY
 const cities = mock.cities
 
 faker.locale = "en_US";
